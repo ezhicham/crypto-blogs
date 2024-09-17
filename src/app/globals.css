@@ -1,0 +1,285 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0d112d;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+ul{
+  list-style: none;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  
+  }
+  
+}
+.flex{
+  display: flex;
+  align-items: center;
+  
+}
+.gap-5{
+  gap: 5px;
+}
+.between{
+  justify-content: space-between;
+}
+.hero-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.hero-section .texts {
+  width: 60%;
+}
+.hero-section .texts h1{
+  font-size: 60px;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #7418ff, #0098af 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 86px #0098af;
+}
+.hero-section .texts h1 span{
+  all: unset; 
+}
+.hero-section .texts p{
+  color: gray;
+  font-size: 20px;
+}
+.hero-section .texts .btns{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   margin-top: 20px;
+}
+
+.hero-section .texts .btns button{
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 5px;
+  background: linear-gradient(to right, #7418ff,#dcc6fd  );
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.hero-section .texts .btns  .link{
+  background: transparent;
+  color:#0098af ;
+  text-decoration: underline #0098af;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+
+}
+.hero-section .texts .btns  .link  span{
+  font-size: 20px;
+}
+
+.hero-section  .analytics{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: fit-content;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 7px;
+  /* border: 1px solid rgba(81, 81, 81, 0.372); */
+  background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
+}
+.hero-section  .analytics .analytic-card{
+  text-align: center;
+}
+.hero-section  .analytics .analytic-card h5{
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.hero-section  .analytics .analytic-card p{
+  font-size: 16px;
+}
+.hero-section .crypto-currency{
+  width: 35%;
+  height:fit-content;
+  border-radius: 7px;
+  border: 1px solid rgba(81, 81, 81, 0.372);
+  background-color: #2a2a2a68;
+  padding: 10px;
+}
+
+.hero-section .crypto-currency .header-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.hero-section .crypto-currency .header-card h4 , p, a{
+  font-size: 12px;
+  text-transform: capitalize;
+  color: gray;
+}
+.hero-section .crypto-currency .header-card  a{
+  text-decoration: underline #0098af;
+  color: #0098af;
+}
+.hero-section .crypto-currency  .card{
+  width: 100%;
+  height: 60px;
+  
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section .crypto-currency  .card .price{
+  font-weight: bold;
+
+}
+.percentage-decr{
+  color: #d2064a;
+}
+.percentage-inc{
+  color: #0098af;
+}
+.platform-features{
+  text-align: center;
+}
+.platform-features .features-cards {
+  text-align: center;
+  margin: auto;
+}
+.platform-features .features-cards .card{
+  width: fit-content;
+  height: 60px;
+  border-radius: 7px;
+  padding: 5px;
+  /* background-image:linear-gradient(to right,#0098af6e,rgba(0, 152, 175, 0.17)); */
+}
+.platform-features .features-cards .card p{
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+}
+
+/* blog section to display our blogs */
+.blogs-section {
+  margin-top: 20px;
+}
+.blogs-section .blogs-cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.blogs-section .blogs-cards .card{
+  width: 250px;
+  height: 400px;
+  background-color: #8a888827;
+  border: 1px rgba(128, 128, 128, 0.49) solid;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  /* background-image: url("https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg"); */
+}
+.blogs-section .blogs-cards .card .image-blog{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  background-color: #0098af;
+}
+.blogs-section .blogs-cards .card .image-blog img{
+  width: 100%;
+  height: 100%;
+}
+.blogs-section .blogs-cards .card  .blog-text{
+  z-index: 1;
+  padding: 5px;
+  background-image: linear-gradient(to bottom ,#22222200,#3e3e3ecb,#2d2d2d );
+}
+.blogs-section .blogs-cards .card h3{
+  text-transform: capitalize;
+}
+.blogs-section .blogs-cards .card p{
+  font-size: 14px;
+  color: rgb(163, 163, 163);
+  
+}
+.blogs-section .blogs-cards .card button{
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  height: 35px;
+  padding: 5px 10px;
+  background: linear-gradient(to right, #7418ff,#dcc6fd  );
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+@media (max-width:768px) {
+  .hero-section .texts {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-section .crypto-currency{
+    width: 100%;
+
+  }
+  .platform-features .features-cards .card p{
+    width: 100%;
+  }
+  .blogs-section .blogs-cards{
+    gap: 10px;
+  }
+  .blogs-section .blogs-cards .card{
+    width: 48%;
+  }
+}

@@ -1,0 +1,51 @@
+footer{
+  width: 100%;
+  min-height: 80px;
+  padding: 20px;
+  background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
+  border: 1px solid rgba(81, 81, 81, 0.372);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.useful-Links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 20px;
+   flex-wrap: wrap;
+
+}
+.useful-Links .title h5{
+  text-transform: capitalize;
+  color: #0098af;
+  font-size: 14px;
+}
+.useful-Links ul li a{
+  font-size: 14px;
+}
+.useful-Links ul li a:hover{
+  color: #0098af;
+  text-decoration: underline #0098af solid;
+
+}
+
+
+/* divider ==*/
+.divider{
+  width: 100%;
+  height: 1px;
+  background-color: rgba(61, 61, 61, 0.693);
+}
+.copyright p {
+  font-size: 14px;
+}
+.copyright p a{
+
+  color: #0098af;
+  text-decoration: underline solid #0098af ;
+
+}

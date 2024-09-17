@@ -1,0 +1,252 @@
+.intro-text-courses {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+}
+.intro-text-courses h1{
+  font-size: 60px;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #7418ff, #0098af 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 86px #0098af;
+}
+.intro-text-courses p{
+  width: 70%;
+  margin: auto;
+  font-size: 18px;
+}
+.our-partners h2{
+  text-transform: capitalize;
+  text-decoration: underline  #0098af;
+  background: linear-gradient(90deg, #7418ff, #0098af 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.our-partners .parternes{
+  width: 500px;
+  margin: auto;
+border: 1px solid rgba(81, 81, 81, 0.372);
+background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 20px;
+  padding: 10px ;
+  border-radius: 7px;
+}
+.our-partners .parternes a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.our-partners .parternes a p{
+  font-size: 14px;
+  text-transform: capitalize;
+  background: none;
+}
+.our-partners .parternes a:hover{
+  transition: 0.3s linear all;
+  color: #0098af;
+  box-shadow: #0098af65 0px 32px 50px 4px;
+}
+
+.coursers-section .title{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+/* ======== courses sections */
+.coursers-section .title h2{
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #7418ff, #0098af 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* =====filter section to sort the courses============ */
+.filter-catigories{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(81, 81, 81, 0.372);
+}
+.filter-catigories a {
+  color: #0098af;
+   font-size: 14px;
+   font-weight: 500;
+}
+.filter-catigories a p{
+   color: #0098af;
+   font-size: 14px;
+   font-weight: 500;
+}
+.filter-catigories a svg{
+  font-size: 12px;
+}
+
+.filter-catigories .drop-btn{
+  width: fit-content;
+  height: 35px;
+  background-image: linear-gradient(to right ,#0098af58,#0098af0f);
+  /* border: 1px solid rgba(81, 81, 81, 0.372); */
+  border-radius: 7px;
+  padding: 5px;
+  color: rgb(172, 172, 172);
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.filter-catigories .drop-down{
+  position: relative;
+
+}
+.filter-catigories .drop-down .drop-menu{
+  position: absolute;
+  width: 200px;
+  top: 43px;
+  height: 0px;
+  overflow: hidden;
+  background-image: linear-gradient(to top ,#262626,#171717aa);
+  border-radius: 7px;
+  border: 1px solid rgba(81, 81, 81, 0.372);
+  transition: 0.1s linear all ;
+}
+.filter-catigories .drop-down .drop-menu li{
+  border-radius: 4px;
+  padding:  3px ;
+  transition: .2s linear all;
+  color: #0098af;
+  border-bottom: 1px solid rgba(81, 81, 81, 0.372);
+}
+.filter-catigories .drop-down .drop-menu li:hover{
+  background-color: #0098af62;
+  color: white;
+}
+.filter-catigories .drop-down .drop-menu li a{
+  color: inherit;
+}
+
+.filter-catigories .drop-btn:hover ~ .drop-menu{
+  height: auto;
+  overflow:visible;
+  border: 1px solid rgba(81, 81, 81, 0.372);
+}
+.filter-catigories .drop-down .drop-menu:hover{
+  height: auto;
+  overflow:visible;
+  border: 1px solid rgba(81, 81, 81, 0.372);
+}
+.filter-catigories .drop-down .drop-menu::before{
+  transition: 0.1s linear;
+  content: "";
+  position: absolute;
+  top: -22px;
+  right: 50%;
+  border-bottom: 10px solid #393939aa;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  
+}
+
+.courses-cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.courses-cards .card{
+  width:250px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
+  border: 1px solid rgba(81, 81, 81, 0.372);
+  border-radius: 7px;
+}
+.courses-cards .card img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.courses-cards .card .info p{
+  font-size: 14px;
+  color: #7418ff;
+  
+}
+.courses-cards .card  .price p{
+  font-size: 16px;
+  font-weight: bold;
+  color: #0098af;
+}
+.courses-cards .card  .stars-rating{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.courses-cards .card  .stars-rating svg{
+  font-size: 12px;
+}
+.courses-cards .card .hours span{
+  color: gray;
+  font-size: 14px;
+}
+.courses-cards .card .hours  svg{
+  color: #0098af;
+}
+.courses-cards .card  .stars-rating svg{
+  color: goldenrod;
+}
+
+.courses-cards .card .btn-link{
+  width: 100%;
+  border-radius: 7px;
+  height: 35px;
+  background-color: #0098af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.courses-cards .card .btn-link a{
+  color: white;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width:700px) {
+  .our-partners .parternes{
+    width: 100%;
+    gap: 10px;
+  }
+  .intro-text-courses p{
+    width: 100%;
+  }
+  .coursers-section .title{
+    width: 100%;
+  }
+}
+@media (max-width:600px) {
+  .intro-text-courses h1{
+    font-size: 50px;
+  }
+  .courses-cards {
+    gap: 5px;
+  }
+  .courses-cards .card{
+    width: 49%;
+  }
+  
+}
+
