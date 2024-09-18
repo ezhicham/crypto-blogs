@@ -120,11 +120,12 @@ a {
   text-align: center;
 }
 .hero-section  .analytics .analytic-card h5{
-  font-size: 18px;
+  font-size: 14px;
   text-transform: capitalize;
+  color: white;
 }
 .hero-section  .analytics .analytic-card p{
-  font-size: 16px;
+  font-size: 14px;
 }
 .hero-section .crypto-currency{
   width: 35%;
@@ -162,6 +163,7 @@ a {
 
 .hero-section .crypto-currency  .card .price{
   font-weight: bold;
+  color: rgb(215, 215, 215);
 
 }
 .percentage-decr{
@@ -172,6 +174,12 @@ a {
 }
 .platform-features{
   text-align: center;
+}
+.platform-features .title h2{
+  background: linear-gradient(90deg, #7418ff, #0098af 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 .platform-features .features-cards {
   text-align: center;
@@ -184,6 +192,7 @@ a {
   padding: 5px;
   /* background-image:linear-gradient(to right,#0098af6e,rgba(0, 152, 175, 0.17)); */
 }
+
 .platform-features .features-cards .card p{
   font-size: 16px;
   width: 50%;
@@ -202,6 +211,7 @@ a {
 }
 
 .blogs-section .blogs-cards .card{
+  margin-top: 20px;
   width: 45%;
   height: fit-content;
   background-image: linear-gradient(to bottom ,#22222200,#3e3e3ecb,#2d2d2d );
@@ -231,10 +241,11 @@ a {
 }
 .blogs-section .blogs-cards .card h3{
   text-transform: capitalize;
+  color: white;
 }
 .blogs-section .blogs-cards .card p{
   font-size: 14px;
-  color: rgb(163, 163, 163);
+  color: #a3a3a3;
   
 }
 .blogs-section .blogs-cards .card button{
@@ -245,6 +256,7 @@ a {
   height: 35px;
   padding: 5px 10px;
   background: linear-gradient(to right, #7418ff,#dcc6fd  );
+  color: white;
   text-transform: capitalize;
   font-weight: bold;
   cursor: pointer;
@@ -252,6 +264,7 @@ a {
 }
 
 @media (max-width:768px) {
+    
   .hero-section .texts {
     width: 100%;
     text-align: center;
@@ -259,6 +272,9 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .hero-section .texts h1{
+    font-size: 45px;
   }
   .hero-section .crypto-currency{
     width: 100%;

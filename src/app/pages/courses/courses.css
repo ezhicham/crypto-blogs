@@ -226,6 +226,9 @@ background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
 }
 
 @media (max-width:700px) {
+  .intro-text-courses h1{
+    font-size: 50px;
+  }
   .our-partners .parternes{
     width: 100%;
     gap: 10px;
@@ -239,7 +242,7 @@ background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
 }
 @media (max-width:600px) {
   .intro-text-courses h1{
-    font-size: 50px;
+    font-size: 45px;
   }
   .courses-cards {
     gap: 5px;

@@ -29,3 +29,11 @@ nav .login button{
  text-transform: capitalize;
  font-weight: bold;
 }
+
+/* nav bar media query */
+@media (max-width:768px) {
+  nav .nav-menu{
+    gap: 20px;
+  }
+  
+}
