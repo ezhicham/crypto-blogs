@@ -14,6 +14,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+background-color: #0d112d;
 }
 ul{
   list-style: none;
@@ -211,32 +212,32 @@ a {
 }
 
 .blogs-section .blogs-cards .card{
-  width: 250px;
-  height: 400px;
-  background-color: #8a888827;
+  width: 45%;
+  height: fit-content;
+  background-image: linear-gradient(to bottom ,#22222200,#3e3e3ecb,#2d2d2d );
   border: 1px rgba(128, 128, 128, 0.49) solid;
   border-radius: 7px;
+  padding: 5px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-end;
   position: relative;
-  /* background-image: url("https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg"); */
-}
+
+  }
 .blogs-section .blogs-cards .card .image-blog{
-  position: absolute;
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 7px;
   background-color: #0098af;
 }
 .blogs-section .blogs-cards .card .image-blog img{
   width: 100%;
   height: 100%;
+  border-radius: 7px;
 }
 .blogs-section .blogs-cards .card  .blog-text{
   z-index: 1;
   padding: 5px;
-  background-image: linear-gradient(to bottom ,#22222200,#3e3e3ecb,#2d2d2d );
 }
 .blogs-section .blogs-cards .card h3{
   text-transform: capitalize;
