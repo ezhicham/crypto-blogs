@@ -215,7 +215,7 @@ a {
   width: 45%;
   height: fit-content;
   background-image: linear-gradient(to bottom ,#22222200,#3e3e3ecb,#2d2d2d );
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px rgba(128, 128, 128, 0.173) solid;
   border-radius: 7px;
   padding: 5px;
   display: flex;

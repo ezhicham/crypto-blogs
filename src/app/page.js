@@ -140,6 +140,138 @@ export default function Home() {
           <h3>what is airdrop?</h3>
           <p>An airdrop in the cryptocurrency world refers to the distribution 
             of free tokens or coins to the wallets of users,
+             often as a promotional tactic to raise.</p>
+             <div className="divider"></div>
+             {/* blog info */}
+             <div className="blog-info">
+                {/* number of likes of blogs */}
+              <div className="likes">
+              <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
+              <span>122k</span>
+              </div>
+              {/* number of views of blogs */}
+              <div className="views">
+              <FontAwesomeIcon width={"15"} icon={faEye} />
+              <span>122k</span>
+              </div>
+
+
+             </div>
+             
+            <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+          </div>
+          </div>
+        {/* ==========blog card ================= */}
+        <div className="card">
+
+          <div className="image-blog">
+            <img src="https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg" alt="" />
+            </div>
+              {/* blog description and infor about blog */}
+        <div className="blog-text">
+          <h3>what is airdrop?</h3>
+          <p>An airdrop in the cryptocurrency world refers to the distribution 
+            of free tokens or coins to the wallets of users,
+             often as a promotional tactic to raise awareness or reward. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Laboriosam, error. Distinctio minima
+              assumenda nemo quis temporibus illo magni porro eveniet.</p>
+             <div className="divider"></div>
+             {/* blog info */}
+             <div className="blog-info">
+                {/* number of likes of blogs */}
+              <div className="likes">
+              <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
+              <span>122k</span>
+              </div>
+              {/* number of views of blogs */}
+              <div className="views">
+              <FontAwesomeIcon width={"15"} icon={faEye} />
+              <span>122k</span>
+              </div>
+
+
+             </div>
+             
+            <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+          </div>
+          </div>
+        {/* ==========blog card ================= */}
+        <div className="card">
+
+          <div className="image-blog">
+            <img src="https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg" alt="" />
+            </div>
+              {/* blog description and infor about blog */}
+        <div className="blog-text">
+          <h3>what is airdrop?</h3>
+          <p>An airdrop in the cryptocurrency world refers to the distribution 
+            of free tokens or coins to the wallets of users,
+             often as a promotional tactic to raise .</p>
+             <div className="divider"></div>
+             {/* blog info */}
+             <div className="blog-info">
+                {/* number of likes of blogs */}
+              <div className="likes">
+              <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
+              <span>122k</span>
+              </div>
+              {/* number of views of blogs */}
+              <div className="views">
+              <FontAwesomeIcon width={"15"} icon={faEye} />
+              <span>122k</span>
+              </div>
+
+
+             </div>
+             
+            <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+          </div>
+          </div>
+        {/* ==========blog card ================= */}
+        <div className="card">
+
+          <div className="image-blog">
+            <img src="https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg" alt="" />
+            </div>
+              {/* blog description and infor about blog */}
+        <div className="blog-text">
+          <h3>what is airdrop?</h3>
+          <p>An airdrop in the cryptocurrency world refers to the distribution 
+            of free tokens or coins to the wallets of users,
+             often as a promotional tactic to raise awareness or reward. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Laboriosam, error. Distinctio minima
+              assumenda nemo quis temporibus illo magni porro eveniet.</p>
+             <div className="divider"></div>
+             {/* blog info */}
+             <div className="blog-info">
+                {/* number of likes of blogs */}
+              <div className="likes">
+              <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
+              <span>122k</span>
+              </div>
+              {/* number of views of blogs */}
+              <div className="views">
+              <FontAwesomeIcon width={"15"} icon={faEye} />
+              <span>122k</span>
+              </div>
+
+
+             </div>
+             
+            <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+          </div>
+          </div>
+        {/* ==========blog card ================= */}
+        <div className="card">
+
+          <div className="image-blog">
+            <img src="https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg" alt="" />
+            </div>
+              {/* blog description and infor about blog */}
+        <div className="blog-text">
+          <h3>what is airdrop?</h3>
+          <p>An airdrop in the cryptocurrency world refers to the distribution 
+            of free tokens or coins to the wallets of users,
              often as a promotional tactic to raise awareness or reward. Lorem ipsum
               dolor sit amet, consectetur adipisicing elit. Laboriosam, error. Distinctio minima
               assumenda nemo quis temporibus illo magni porro eveniet.</p>
