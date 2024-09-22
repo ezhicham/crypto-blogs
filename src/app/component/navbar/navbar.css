@@ -10,7 +10,9 @@ background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
   transition: .2s linear all;
 
 }
-
+nav  .nav-brand span{
+  color:#0098af;
+}
 nav .nav-menu{
   display: flex;
   gap: 50px;
@@ -41,16 +43,21 @@ font-size: 25px;
   background-color:white ;
   border-radius: 50%;
 }
-.active-icon{
+.nav-icon{
   display: none;
+  color: white;
 }
 /* nav bar media query */
 @media (max-width:768px) {
   nav{
     padding: 5px;
   }
+  .nav-icon{
+    display: block;
+  }
   .active-icon{
     display: block;
+    color: white;
   }
   nav.active{
     /* width: 50%; */
