@@ -44,6 +44,12 @@ a {
 .gap-5{
   gap: 5px;
 }
+.gap-10{
+  gap: 10px;
+}
+.gap-20{
+  gap: 20px;
+}
 .between{
   justify-content: space-between;
 }
@@ -201,7 +207,7 @@ a {
 
 /* blog section to display our blogs */
 .blogs-section {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .blogs-section .blogs-cards{
   display: flex;
@@ -227,7 +233,7 @@ a {
   width: 25%;
   margin: auto 0;
   background-color: #0098af;
-  height: 100%;
+  height: auto;
   border-radius: 7px;
 }
 .blogs-section .blogs-cards .card .image-blog img{
