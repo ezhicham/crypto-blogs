@@ -16,6 +16,7 @@ function Navbar() {
         <li><a href="">invest</a></li>
         <li><a href="">earn money</a></li>
         <li><a href="/pages/courses">courses</a></li>
+        <li><a href="/pages/addblog">add blog</a></li>
       </ul>
 
       <div className="login">
