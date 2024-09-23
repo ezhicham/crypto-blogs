@@ -171,7 +171,7 @@ export default function Home() {
             </div>
               {/* blog description and infor about blog */}
         <div className="blog-text">
-          <h3>what is airdrop?</h3>
+          <h3>linkkkkk?</h3>
           <p>An airdrop in the cryptocurrency world refers to the distribution 
             of free tokens or coins to the wallets of users,
              often as a promotional tactic to raise awareness or reward. Lorem ipsum
@@ -194,7 +194,7 @@ export default function Home() {
 
              </div>
              
-            <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+            <a href="/pages/addblog" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
           </div>
           </div>
         {/* ==========blog card ================= */}
