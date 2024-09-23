@@ -15,7 +15,7 @@ export default function Home() {
         {/* texts hero */}
         <div className="texts">
           <h1>crytpo world : learn , earn , invest , us the best  
-              <a href="https://smrturl.co/o/578434/53492487?s1=" target="_blank">visggggggit us1</a> </h1>
+              <a href="https://n9.cl/psvam" target="_blank">visggggggit us1</a> </h1>
           <p>🚀 Crypto World: Learn, Earn, Invest! | 💡 Master the crypto market with us and unlock endless opportunities! 💰 Start earning, grow your wealth, 
             and invest smartly with the best platform. 🏆 Join the revolution today! 🌟
           .</p>
