@@ -16,7 +16,8 @@ export default function Home() {
         <div className="texts">
           <h1>crytpo world : learn , earn , invest , us the best  </h1>
           <p>🚀 Crypto World: Learn, Earn, Invest! | 💡 Master the crypto market with us and unlock endless opportunities! 💰 Start earning, grow your wealth, 
-            and invest smartly with the best platform. 🏆 Join the revolution today! 🌟.</p>
+            and invest smartly with the best platform. 🏆 Join the revolution today! 🌟
+            <a href="https://rb.gy/db4hy6">visit us</a>.</p>
             <div className="btns">
             <button>free courses <FontAwesomeIcon width={"15"} icon={faHandHoldingDollar} /></button>
             <a className="link flex gap"> <span>discover blogs </span><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
