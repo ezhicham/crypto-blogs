@@ -17,6 +17,8 @@ export default function Home() {
           <h1>crytpo world : learn , earn , invest , us the best  
               <a href="https://smrturl.co/o/578434/53199722?s1=" target="_blank">visggggggit us1</a> </h1>
           <a target="_blank" href="https://smrturl.co/o/578434/53489682?s1=">offer shien</a>
+          <a  target="_blank"  href="https://smrturl.co/o/578434/53431476?s1=">offer ukraine</a>
+          <a href="https://smrturl.co/o/578434/53449849?s1="> canada kfc</a>
           <p>🚀 Crypto World: Learn, Earn, Invest! | 💡 Master the crypto market with us and unlock endless opportunities! 💰 Start earning, grow your wealth, 
             and invest smartly with the best platform. 🏆 Join the revolution today! 🌟
           .</p>
