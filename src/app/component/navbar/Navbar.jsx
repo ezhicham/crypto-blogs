@@ -4,6 +4,7 @@ import { faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons"
 import "./navbar.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
+import Link from "next/link"
 
 
 function Navbar() {
@@ -12,12 +13,12 @@ function Navbar() {
     <nav className={`${activeNav}`}>
       <div className="nav-brand"><span><img src="/images/Crypto.png" width={"150"} alt="" /></span></div>
       <ul className="nav-menu">
-        <li><a href="/">home</a></li>
-        <li><a href="">news</a></li>
-        <li><a href="">invest</a></li>
-        <li><a href="/pages/about">about us</a></li>
-        <li><a href="/pages/courses">courses</a></li>
-        <li><a href="/pages/addblog">add blog</a></li>
+        <li><Link href="/">home</Link></li>
+        <li><Link href="">news</Link></li>
+        <li><Link href="">invest</Link></li>
+        <li><Link href="/pages/about">about us</Link></li>
+        <li><Link href="/pages/courses">courses</Link></li>
+        <li><Link href="/pages/addblog">add blog</Link></li>
       </ul>
 
       <div className="login">

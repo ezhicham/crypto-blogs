@@ -227,7 +227,7 @@ a {
 }
 
 .blogs-section .blogs-cards .card{
-  width: 25%;
+  width: 23%;
   height: fit-content;
   /* background-image: linear-gradient(to bottom ,#22222200,#3e3e3ecb,#2d2d2d ); */
   border: 1px rgba(128, 128, 128, 0.173) solid;
@@ -307,7 +307,11 @@ gap: 5px;
 .blogs-section .blogs-cards .card .btn-more p{
   color: white;
 }
-
+@media (max-width:998px) {
+  .blogs-section .blogs-cards .card{
+    width: 30%;
+  }
+}
 @media (max-width:768px) {
     
   .hero-section .texts {
@@ -332,6 +336,12 @@ gap: 5px;
     gap: 5px;
   }
   .blogs-section .blogs-cards .card{
-    width: 100%;
+    width: 48%;
   }
 }
+
+/* @media (max-width:600px){
+  .blogs-section .blogs-cards .card{
+    width: 48%;
+  }
+} */

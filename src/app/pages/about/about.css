@@ -18,3 +18,12 @@
   margin: auto;
   font-size: 18px;
 }
+
+@media (max-width:600px) {
+  .intro-text-about h1{
+    font-size: 45px;
+  }
+  .intro-text-about p{
+    width: 100%;
+  }
+}

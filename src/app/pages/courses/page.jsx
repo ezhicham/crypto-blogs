@@ -23,10 +23,10 @@ function page() {
           <section className="our-partners">
             <h2>our partners</h2>
             <div className="parternes">
-              <a href=""><FontAwesomeIcon width={"25"} icon={faSlack} /> <p>binance</p></a>
-              <a href=""><FontAwesomeIcon width={"25"} icon={faStackOverflow} /><p> trade</p></a>
-              <a href=""><FontAwesomeIcon width={"25"} icon={faBitcoin} /><p>coursera</p></a>
-              <a href=""><FontAwesomeIcon width={"25"} icon={faLitecoinSign} /><p>udemi</p></a>
+              <a href=""><FontAwesomeIcon  icon={faSlack} /> <p>binance</p></a>
+              <a href=""><FontAwesomeIcon  icon={faStackOverflow} /><p> trade</p></a>
+              <a href=""><FontAwesomeIcon icon={faBitcoin} /><p>coursera</p></a>
+              <a href=""><FontAwesomeIcon  icon={faLitecoinSign} /><p>udemi</p></a>
             </div>
           </section>
 

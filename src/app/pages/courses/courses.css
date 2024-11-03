@@ -26,7 +26,7 @@
   -webkit-text-fill-color: transparent;
 }
 .our-partners .parternes{
-  width: 500px;
+  width: 70%;
   margin: auto;
 border: 1px solid rgba(81, 81, 81, 0.372);
 background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
@@ -41,10 +41,10 @@ background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
 .our-partners .parternes a{
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 3px;
 }
 .our-partners .parternes a p{
-  font-size: 14px;
+  font-size: 18px;
   text-transform: capitalize;
   background: none;
 }
@@ -52,6 +52,9 @@ background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
   transition: 0.3s linear all;
   color: #0098af;
   box-shadow: #0098af65 0px 32px 50px 4px;
+}
+.our-partners .parternes  svg{
+  font-size: 20px;
 }
 
 .coursers-section .title{
@@ -179,6 +182,9 @@ background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
   width: 100%;
   object-fit: cover;
   border-radius: 7px;
+}
+.courses-cards .card  h3{
+  color: white;
 }
 .courses-cards .card .info p{
   font-size: 14px;

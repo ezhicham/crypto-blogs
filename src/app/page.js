@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faEye, faHandHoldingDollar, faMessage, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -169,7 +170,7 @@ export default function Home() {
 
              </div>
              
-            <a href="/pages/blogdetails" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+            <Link href="/pages/blogdetails" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></Link>
           </div>
           </div>
 
@@ -206,7 +207,7 @@ export default function Home() {
 
    </div>
    
-  <a href="/pages/blogdetails" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+  <Link href="/pages/blogdetails" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></Link>
 </div>
 </div>{/* ==========blog card ================= */}
         <div className="card">
