@@ -336,8 +336,17 @@ gap: 5px;
     gap: 5px;
   }
   .blogs-section .blogs-cards .card{
-    width: 48%;
+    width: 70%;
+    margin: auto;
   }
+}
+
+@media (max-width:598px){
+  .blogs-section .blogs-cards .card{
+    width:100%;
+    margin: auto;
+  }
+
 }
 
 /* @media (max-width:600px){
