@@ -5,16 +5,17 @@ import "./navbar.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
 
+
 function Navbar() {
   const[activeNav,setactiveNav]=useState("")
   return (
     <nav className={`${activeNav}`}>
-      <div className="nav-brand"><span>crypto world</span></div>
+      <div className="nav-brand"><span><img src="/images/Crypto.png" width={"150"} alt="" /></span></div>
       <ul className="nav-menu">
         <li><a href="/">home</a></li>
         <li><a href="">news</a></li>
         <li><a href="">invest</a></li>
-        <li><a href="">earn money</a></li>
+        <li><a href="/pages/about">about us</a></li>
         <li><a href="/pages/courses">courses</a></li>
         <li><a href="/pages/addblog">add blog</a></li>
       </ul>

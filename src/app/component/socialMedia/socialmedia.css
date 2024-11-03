@@ -5,8 +5,8 @@
 }
 
 .social-media-links a{
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,4 +17,7 @@
 }
 .social-media-links a:hover{
   background-image: linear-gradient(to right ,#676666aa,#4e464696);
+}
+.social-media-links a svg{
+  font-size: 20px;
 }

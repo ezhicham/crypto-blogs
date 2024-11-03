@@ -24,6 +24,10 @@ nav .nav-menu li a{
   font-size: 16px;
 
 }
+nav .nav-menu li a:hover{
+  transition: 0.4s linear all;
+  color:#0098af;
+}
 
 nav .login button{
   width: 150px;

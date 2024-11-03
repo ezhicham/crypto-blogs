@@ -1,18 +1,34 @@
-import localFont from "next/font/local";
+// import { Inter } from 'next/font/google'
+ 
+// If loading a variable font, you don't need to specify the font weight
+
 import "./globals.css";
 import Navbar from "./component/navbar/Navbar";
 import Footer from "./component/footer/Footer";
+import { Poppins } from 'next/font/google'
+const poppins = Poppins(
+  {
+    subsets:["latin"],
+     weight:["100" ,"200","300","400","500","600","700","800"
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+     ]
+
+ })
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
+// const poppins = poppin({
+//   src: "./fonts/Poppins-Regular.ttf",
+//   variable: "--font-poppins",
+//   weight: "100 900",
+// });
 
 export const metadata = {
   title: "Create Next App",
@@ -22,7 +38,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      {/* <body className={`${poppins.variable} ${poppins.variable}`}> */}
+      <body className={poppins.className} >
       <Navbar/>
         {children}
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faEye, faHandHoldingDollar, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faEye, faHandHoldingDollar, faMessage, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -15,15 +15,8 @@ export default function Home() {
         {/* texts hero */}
         <div className="texts">
           <h1>crytpo world : learn , earn , invest , us the best  
-              <a href="https://smrturl.co/o/578434/53199722?s1=" target="_blank">visggggggit us1</a> </h1>
-        <div className="links">
-        <a target="_blank" href="https://smrturl.co/o/578434/53489682?s1=">offer shien</a>
-          <a  target="_blank"  href="https://smrturl.co/o/578434/53431476?s1=">offer ukraine</a>
-          <a href="https://n9.cl/aytp3"> canada kfc</a>
-        <a href="https://smrturl.co/o/578434/53491437?s1=">usa offer :53491437</a>
-        <a href="https://smrturl.co/o/578434/53356127?s1=">usa</a>
-        <a href="https://n9.cl/ulsam">canada</a>
-        </div>
+            </h1>
+        
           <p>🚀 Crypto World: Learn, Earn, Invest! | 💡 Master the crypto market with us and unlock endless opportunities! 💰 Start earning, grow your wealth, 
             and invest smartly with the best platform. 🏆 Join the revolution today! 🌟
           .</p>
@@ -130,8 +123,12 @@ export default function Home() {
           </div>
           {/* features cards */}
           <div className="features-cards">
-            <div className="card"><p> 💎  we will help you to earn money 💰 from crypto and trading 📈 , airdrop and more Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aut
-               quasi reprehenderit possimus quidem nobis non minus. Officia, veniam aliquam!</p> </div>
+            <div className="card flex gap-4"><p> 💎  we will help you to earn money 💰 from crypto 
+              and trading 📈 , airdrop and more Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aut
+               quasi reprehenderit possimus quidem nobis non minus. Officia, veniam aliquam!</p>
+              
+                </div>
+                <img src="images/rabbit1.png" width={"200"} alt="" />
           </div>
       </div>
 
@@ -143,7 +140,7 @@ export default function Home() {
         <div className="card">
 
           <div className="image-blog">
-            <img src="https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg" alt="" />
+            <img src="https://i.pinimg.com/564x/81/78/4e/81784e304f80f3f9801d17335717ea13.jpg" alt="" />
             </div>
               {/* blog description and infor about blog */}
         <div className="blog-text">
@@ -164,93 +161,65 @@ export default function Home() {
               <FontAwesomeIcon width={"15"} icon={faEye} />
               <span>122k</span>
               </div>
-
+         {/* number of views of blogs */}
+          <div className="comment">
+              <FontAwesomeIcon width={"15"} icon={faMessage} />
+              <span>20</span>
+              </div>
 
              </div>
              
-            <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+            <a href="/pages/blogdetails" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
           </div>
           </div>
-        {/* ==========blog card ================= */}
+
+          {/* ==========blog card ================= */}
+        <div className="card">
+
+<div className="image-blog">
+  <img src="https://i.pinimg.com/564x/72/d4/92/72d492340f203e0a812ca9fd05bb931c.jpg" alt="" />
+  </div>
+    {/* blog description and infor about blog */}
+<div className="blog-text">
+<h3>what is airdrop?</h3>
+<p>An airdrop in the cryptocurrency world refers to the distribution 
+  of free tokens or coins to the wallets of users,
+   often as a promotional tactic to raise.</p>
+   <div className="divider"></div>
+   {/* blog info */}
+   <div className="blog-info">
+      {/* number of likes of blogs */}
+    <div className="likes">
+    <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
+    <span>122k</span>
+    </div>
+    {/* number of views of blogs */}
+    <div className="views">
+    <FontAwesomeIcon width={"15"} icon={faEye} />
+    <span>122k</span>
+    </div>
+{/* number of views of blogs */}
+<div className="comment">
+    <FontAwesomeIcon width={"15"} icon={faMessage} />
+    <span>20</span>
+    </div>
+
+   </div>
+   
+  <a href="/pages/blogdetails" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+</div>
+</div>{/* ==========blog card ================= */}
         <div className="card">
 
           <div className="image-blog">
-            <img src="https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg" alt="" />
-            </div>
-              {/* blog description and infor about blog */}
-        <div className="blog-text">
-          <h3>linkkkkk?</h3>
-          <p>An airdrop in the cryptocurrency world refers to the distribution 
-            of free tokens or coins to the wallets of users,
-             often as a promotional tactic to raise awareness or reward. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit. Laboriosam, error. Distinctio minima
-              assumenda nemo quis temporibus illo magni porro eveniet.</p>
-             <div className="divider"></div>
-             {/* blog info */}
-             <div className="blog-info">
-                {/* number of likes of blogs */}
-              <div className="likes">
-              <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
-              <span>122k</span>
-              </div>
-              {/* number of views of blogs */}
-              <div className="views">
-              <FontAwesomeIcon width={"15"} icon={faEye} />
-              <span>122k</span>
-              </div>
-
-
-             </div>
-             
-            <a href="/pages/addblog" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
-          </div>
-          </div>
-        {/* ==========blog card ================= */}
-        <div className="card">
-
-          <div className="image-blog">
-            <img src="https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg" alt="" />
-            </div>
-              {/* blog description and infor about blog */}
-        <div className="blog-text">
-          <h3>what is airdrop?</h3>
-          <p>An airdrop in the cryptocurrency world refers to the distribution 
-            of free tokens or coins to the wallets of users,
-             often as a promotional tactic to raise .</p>
-             <div className="divider"></div>
-             {/* blog info */}
-             <div className="blog-info">
-                {/* number of likes of blogs */}
-              <div className="likes">
-              <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
-              <span>122k</span>
-              </div>
-              {/* number of views of blogs */}
-              <div className="views">
-              <FontAwesomeIcon width={"15"} icon={faEye} />
-              <span>122k</span>
-              </div>
-
-
-             </div>
-             
-            <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
-          </div>
-          </div>
-        {/* ==========blog card ================= */}
-        <div className="card">
-
-          <div className="image-blog">
-            <img src="https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg" alt="" />
+            <img src="https://i.pinimg.com/564x/3c/cb/ec/3ccbec1adff12c861dc8fa5164261735.jpg" alt="" />
             </div>
               {/* blog description and infor about blog */}
         <div className="blog-text">
           <h3>what is airdrop?</h3>
           <p>An airdrop in the cryptocurrency world refers to the distribution 
             of free tokens or coins to the wallets of users,
-             often as a promotional tactic to raise awareness or reward. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit. Laboriosam, error. Distinctio minima
-              assumenda nemo quis temporibus illo magni porro eveniet.</p>
+             often as a promotional tactic to raise.</p>
              <div className="divider"></div>
              {/* blog info */}
              <div className="blog-info">
@@ -264,27 +233,28 @@ export default function Home() {
               <FontAwesomeIcon width={"15"} icon={faEye} />
               <span>122k</span>
               </div>
-
+         {/* number of views of blogs */}
+          <div className="comment">
+              <FontAwesomeIcon width={"15"} icon={faMessage} />
+              <span>20</span>
+              </div>
 
              </div>
              
             <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
           </div>
-          </div>
-        {/* ==========blog card ================= */}
+          </div>{/* ==========blog card ================= */}
         <div className="card">
 
           <div className="image-blog">
-            <img src="https://i.pinimg.com/564x/0d/2c/b8/0d2cb8e8648fd6bc43a93ddbbae077fe.jpg" alt="" />
+            <img src="https://i.pinimg.com/564x/2e/30/15/2e3015fa5c08671d9162bdd5606dc371.jpg" alt="" />
             </div>
               {/* blog description and infor about blog */}
         <div className="blog-text">
           <h3>what is airdrop?</h3>
           <p>An airdrop in the cryptocurrency world refers to the distribution 
             of free tokens or coins to the wallets of users,
-             often as a promotional tactic to raise awareness or reward. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit. Laboriosam, error. Distinctio minima
-              assumenda nemo quis temporibus illo magni porro eveniet.</p>
+             often as a promotional tactic to raise.</p>
              <div className="divider"></div>
              {/* blog info */}
              <div className="blog-info">
@@ -298,14 +268,53 @@ export default function Home() {
               <FontAwesomeIcon width={"15"} icon={faEye} />
               <span>122k</span>
               </div>
+         {/* number of views of blogs */}
+          <div className="comment">
+              <FontAwesomeIcon width={"15"} icon={faMessage} />
+              <span>20</span>
+              </div>
 
+             </div>
+             
+            <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
+          </div>
+          </div>{/* ==========blog card ================= */}
+        <div className="card">
+
+          <div className="image-blog">
+            <img src="https://i.pinimg.com/564x/ba/dc/cb/badccb136d1fe0ce5442695e98c21356.jpg" alt="" />
+            </div>
+              {/* blog description and infor about blog */}
+        <div className="blog-text">
+          <h3>what is airdrop?</h3>
+          <p>An airdrop in the cryptocurrency world refers to the distribution 
+            of free tokens or coins to the wallets of users,
+             often as a promotional tactic to raise.</p>
+             <div className="divider"></div>
+             {/* blog info */}
+             <div className="blog-info">
+                {/* number of likes of blogs */}
+              <div className="likes">
+              <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
+              <span>122k</span>
+              </div>
+              {/* number of views of blogs */}
+              <div className="views">
+              <FontAwesomeIcon width={"15"} icon={faEye} />
+              <span>122k</span>
+              </div>
+         {/* number of views of blogs */}
+          <div className="comment">
+              <FontAwesomeIcon width={"15"} icon={faMessage} />
+              <span>20</span>
+              </div>
 
              </div>
              
             <a href="" className="btn-more"><p>learn more</p><FontAwesomeIcon width={"15"} icon={faArrowRight} /></a>
           </div>
           </div>
-        
+    
         
 
 
