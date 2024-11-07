@@ -245,6 +245,12 @@ background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
   .coursers-section .title{
     width: 100%;
   }
+  .our-partners .parternes a p{
+    font-size: 14px;
+  }
+  .our-partners .parternes  svg{
+    font-size: 16px;
+  }
 }
 @media (max-width:600px) {
   .intro-text-courses h1{
@@ -255,6 +261,9 @@ background-image: linear-gradient(to right ,#4d4d4d86,#2a2a2a2b);
   }
   .courses-cards .card{
     width: 49%;
+  }
+  .our-partners .parternes a p{
+    font-size: 12px;
   }
   
 }

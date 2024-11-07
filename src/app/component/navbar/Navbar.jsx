@@ -34,7 +34,10 @@ function Navbar() {
         }
         }><Link href="/pages/courses">courses</Link></li>
       
-        <li><Link href={"/pages/admin/addBlog"} className="add-product-btn">create blog</Link></li>
+        <li  onClick={() => {
+          setactiveNav("")
+        }
+        } ><Link href={"/pages/admin/addBlog"} className="add-product-btn">create blog</Link></li>
       </ul>
 
       <div className="login">

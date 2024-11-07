@@ -191,17 +191,17 @@ export default function Home() {
    <div className="blog-info">
       {/* number of likes of blogs */}
     <div className="likes">
-    <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
+    <FontAwesomeIcon  icon={faThumbsUp} />
     <span>122k</span>
     </div>
     {/* number of views of blogs */}
     <div className="views">
-    <FontAwesomeIcon width={"15"} icon={faEye} />
+    <FontAwesomeIcon  icon={faEye} />
     <span>122k</span>
     </div>
 {/* number of views of blogs */}
 <div className="comment">
-    <FontAwesomeIcon width={"15"} icon={faMessage} />
+    <FontAwesomeIcon  icon={faMessage} />
     <span>20</span>
     </div>
 
@@ -226,17 +226,17 @@ export default function Home() {
              <div className="blog-info">
                 {/* number of likes of blogs */}
               <div className="likes">
-              <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
+              <FontAwesomeIcon  icon={faThumbsUp} />
               <span>122k</span>
               </div>
               {/* number of views of blogs */}
               <div className="views">
-              <FontAwesomeIcon width={"15"} icon={faEye} />
+              <FontAwesomeIcon  icon={faEye} />
               <span>122k</span>
               </div>
          {/* number of views of blogs */}
           <div className="comment">
-              <FontAwesomeIcon width={"15"} icon={faMessage} />
+              <FontAwesomeIcon  icon={faMessage} />
               <span>20</span>
               </div>
 
@@ -266,12 +266,12 @@ export default function Home() {
               </div>
               {/* number of views of blogs */}
               <div className="views">
-              <FontAwesomeIcon width={"15"} icon={faEye} />
+              <FontAwesomeIcon  icon={faEye} />
               <span>122k</span>
               </div>
          {/* number of views of blogs */}
           <div className="comment">
-              <FontAwesomeIcon width={"15"} icon={faMessage} />
+              <FontAwesomeIcon  icon={faMessage} />
               <span>20</span>
               </div>
 
@@ -296,17 +296,17 @@ export default function Home() {
              <div className="blog-info">
                 {/* number of likes of blogs */}
               <div className="likes">
-              <FontAwesomeIcon width={"15"} icon={faThumbsUp} />
+              <FontAwesomeIcon  icon={faThumbsUp} />
               <span>122k</span>
               </div>
               {/* number of views of blogs */}
               <div className="views">
-              <FontAwesomeIcon width={"15"} icon={faEye} />
+              <FontAwesomeIcon  icon={faEye} />
               <span>122k</span>
               </div>
          {/* number of views of blogs */}
           <div className="comment">
-              <FontAwesomeIcon width={"15"} icon={faMessage} />
+              <FontAwesomeIcon  icon={faMessage} />
               <span>20</span>
               </div>
 
