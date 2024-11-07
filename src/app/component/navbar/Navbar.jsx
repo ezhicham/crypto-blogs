@@ -33,6 +33,8 @@ function Navbar() {
     
       </div>
       
+
+      <Link href={"/pages/admin/addBlog"} className="add-product-btn">create blog</Link>
     </nav>
   )
 }

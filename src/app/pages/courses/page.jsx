@@ -77,8 +77,7 @@ function page() {
               <img src="https://i.pinimg.com/564x/d0/ed/6f/d0ed6f02e31f1e4aa0d45d113d1dee1e.jpg" alt="" />
               <div className="desc">
                 <h3>airdrop</h3>
-                <p>this course talke about the best way to find airdrop
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ad!
+                <p>this course talke about the best way to find Placeat, ad!
                 </p>
               </div>
               <div className="info flex between">
@@ -137,7 +136,7 @@ function page() {
               <div className="desc">
                 <h3>airdrop</h3>
                 <p>this course talke about the best way to find airdrop
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ad!
+                . Placeat, ad!
                 </p>
               </div>
               <div className="info flex between">
@@ -165,7 +164,7 @@ function page() {
               <div className="desc">
                 <h3>airdrop</h3>
                 <p>this course talke about the best way to find airdrop
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ad!
+                  Lorem, Placeat, ad!
                 </p>
               </div>
               <div className="info flex between">
@@ -192,8 +191,7 @@ function page() {
               <img src="https://i.pinimg.com/736x/2d/04/38/2d04388674c0af3d19a06a17dede65d8.jpg" alt="" />
               <div className="desc">
                 <h3>airdrop</h3>
-                <p>this course talke about the best way to find airdrop
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ad!
+                <p>this course talke about the best way to  Placeat, ad!
                 </p>
               </div>
               <div className="info flex between">
@@ -220,8 +218,7 @@ function page() {
               <img src="https://i.pinimg.com/564x/cd/4b/7b/cd4b7bdc2915e8d5b4b2b47a87785061.jpg" alt="" />
               <div className="desc">
                 <h3>airdrop</h3>
-                <p>this course talke about the best way to find airdrop
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, ad!
+                <p>this course talke about the best way to  Placeat, ad!
                 </p>
               </div>
               <div className="info flex between">
