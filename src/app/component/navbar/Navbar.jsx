@@ -13,12 +13,28 @@ function Navbar() {
     <nav className={`${activeNav}`}>
       <div className="nav-brand"><span><img src="/images/Crypto.png" width={"150"} alt="" /></span></div>
       <ul className="nav-menu">
-        <li><Link href="/">home</Link></li>
-        <li><Link href="">news</Link></li>
-        <li><Link href="">invest</Link></li>
-        <li><Link href="/pages/about">about us</Link></li>
-        <li><Link href="/pages/courses">courses</Link></li>
-        <li><Link href="/pages/addblog">add blog</Link></li>
+        <li onClick={() => {
+          setactiveNav("")
+        }
+        }><Link href="/">home</Link></li>
+        <li  onClick={() => {
+          setactiveNav("")
+        }
+        }><Link href="">news</Link></li>
+        <li  onClick={() => {
+          setactiveNav("")
+        }
+        }><Link href="">invest</Link></li>
+        <li  onClick={() => {
+          setactiveNav("")
+        }
+        }><Link href="/pages/about">about us</Link></li>
+        <li  onClick={() => {
+          setactiveNav("")
+        }
+        }><Link href="/pages/courses">courses</Link></li>
+      
+        <li><Link href={"/pages/admin/addBlog"} className="add-product-btn">create blog</Link></li>
       </ul>
 
       <div className="login">
@@ -34,7 +50,7 @@ function Navbar() {
       </div>
       
 
-      <Link href={"/pages/admin/addBlog"} className="add-product-btn">create blog</Link>
+    
     </nav>
   )
 }

@@ -51,6 +51,7 @@ form div{
 }
 form div label{
   text-transform: capitalize;
+  color: white;
 }
 form div input{
   width: 100%;
@@ -114,4 +115,13 @@ form button p{
   font-size: 16px;
   /* font-weight: bold; */
 
+}
+
+@media (max-width:999px) {
+
+  form{
+   width: 100%;
+   padding: 8px;
+
+}
 }
