@@ -10,10 +10,11 @@
   background: linear-gradient(90deg, #7418ff, #0098af 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 4px 86px #0098af;
+  text-shadow: 57px 4px 38px #0098af;
+  text-align: center;
 }
 
-.blog-form-section h1::before{
+/* .blog-form-section h1::before{
   content: " ";
   position: absolute;
   top: 200px;
@@ -23,7 +24,7 @@
   background-color:  #0098af;
   filter: blur(50px);
 
-}
+} */
 .message-attention{
   background-color: rgba(253, 100, 133, 0.859);
   color: white;
@@ -43,7 +44,7 @@ form{
 
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 10px;
   padding: 20px;
   border-radius: 7px;
 }
@@ -85,6 +86,7 @@ form .img-input label{
 form .img-input input{
   opacity: 0;
   text-align: right;
+  color: white;
 }
 form div textarea{
   height: 200px;
@@ -94,6 +96,7 @@ form div textarea{
   border: 1px solid rgba(128, 128, 128, 0.302);
   /* border: 1px solid rgb(26, 8, 92); */
   background-color: rgba(141, 139, 139, 0.148);
+  color: white;
 }
 form button{
   width: 100%;

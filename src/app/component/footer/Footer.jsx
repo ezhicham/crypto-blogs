@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import SocialMedia from '../socialMedia/SocialMedia'
 import './footer.css'
 
@@ -41,6 +42,21 @@ function Footer() {
       {/* affiliate links */}
       <div className="courses-links">
       <div className="title"><h5>learning</h5></div>
+        <ul className="sites-links">
+          <li><a href="">sales courses</a></li>
+          <li><a href="">telegram marketing</a></li>
+          <li><a href="">linkedin marketing</a></li>
+          <li><a href="">dropshoping</a></li>
+          <li><a href="">free courses </a></li>
+          <li><a href="">bloging </a></li>
+
+        </ul>
+
+      </div>
+
+      {/* privacy and policy */}
+      <div className="courses-links">
+      <div className="title"><h5><Link href="/pages/privacypolicy">privacy and policy</Link></h5></div>
         <ul className="sites-links">
           <li><a href="">sales courses</a></li>
           <li><a href="">telegram marketing</a></li>
